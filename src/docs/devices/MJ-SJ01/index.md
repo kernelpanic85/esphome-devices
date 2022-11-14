@@ -577,9 +577,11 @@ wifi:
       gateway: 192.168.1.1
       subnet: 255.255.255.0
 
-web_server:
-  port: 80
-  # https://esphome.io/components/web_server.html
+# web_server:
+   # https://esphome.io/components/web_server.html
+   # Web server can cause high memory usage on ESP8266, enable as needed
+   # port: 80
+
 
 logger:
   # https://esphome.io/components/logger
